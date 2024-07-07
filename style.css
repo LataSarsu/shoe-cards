@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #d9e2e8;
+  font-weight: 600;
+  line-height: 1.6;
+}
+/* .container {
+  max-width: 1100px;
+  background-color: #f8fafe;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 70px 60px;
+} */
+/* .container {
+  display: flex;
+  flex-direction: column; */
+/* justify-content: center; */
+/* align-items: center; */
+/* gap: 10px;
+  padding: 5px; */
+/* justify-content: flex-end; */
+/* height: 200px;
+  border: 1px solid #000; */
+/* flex-wrap: wrap;
+} */
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  /* color: #007bff; */
+}
+p {
+  font-size: 20px;
+  color: #393333;
+}
+.container {
+  max-width: 600px;
+  background-color: #d9e2e8;
+  border-radius: 10px;
+  margin: 50px auto;
+  /* margin-top: 10px; */
+  padding: 0 20px;
+}
+.card {
+  margin: 5px 0;
+  padding: 0px 20px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-sport {
+  background: #fff url(sport.png) no-repeat center right / 200px;
+}
+.card-casual {
+  background: #fff url(casual.png) no-repeat center right / 200px;
+}
+.card-formal {
+  background: #fff url(formal.png) no-repeat center right / 200px;
+}
+.card-sport h2 {
+  /* max-width: 590px;
+  max-height: 170px;
+  background-color: #f8fafe;
+  border-radius: 10px; */
+  /* margin: 0 auto;
+  margin-top: 10px;
+  padding: 70px 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); */
+  color: #e04553;
+  font-weight: 800;
+  font-size: 28px;
+}
+.card-casual h2 {
+  /* max-width: 590px;
+  max-height: 170px;
+  background-color: #f8fafe;
+  border-radius: 10px; */
+  /* margin: 0 auto;
+  margin-top: 20px;
+  padding: 70px 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); */
+  color: #0d4ba3;
+  font-weight: 800;
+  font-size: 28px;
+}
+.card-formal h2 {
+  /* max-width: 590px;
+  max-height: 170px;
+  background-color: #f8fafe;
+  border-radius: 10px; */
+  /* margin: 0 auto;
+  margin-top: 20px;
+  padding: 70px 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); */
+  color: #512b22;
+  font-weight: 800;
+  font-size: 28px;
+}
+.card-sport a {
+  display: block;
+  background-color: #e04553;
+  border: 1px solid #e04553;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 35%;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}
+.card-sport a:hover{
+  background-color: #ec6d78;
+}
+.card-casual a{
+  display: block;
+  background-color: #255DAC;
+  border: 1px solid #255DAC;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 35%;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}
+.card-casual a:hover{
+  background-color: #4e8ee7;
+}
+.card-formal a{
+  display: block;
+  background-color: #624038;
+  border: 1px solid #624038;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 35%;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+}
+.card-formal a:hover{
+  background-color: #aa6455;
+}
